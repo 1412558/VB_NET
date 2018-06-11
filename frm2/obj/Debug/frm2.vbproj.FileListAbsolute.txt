@@ -56,3 +56,4 @@ D:\VB_NET\frm2\obj\Debug\frm2.vbproj.GenerateResource.Cache
 D:\VB_NET\frm2\obj\Debug\frm2.exe
 D:\VB_NET\frm2\obj\Debug\frm2.xml
 D:\VB_NET\frm2\obj\Debug\frm2.pdb
+D:\VB_NET\frm2\obj\Debug\frm2.vbprojResolveAssemblyReference.cache
