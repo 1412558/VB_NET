@@ -37,16 +37,16 @@ Public Class Form1
         cryRpt.Database.Tables("calenda").SetDataSource(dt)
         'cryRpt.SetDataSource(dt3)
 
-        Dim txtdata As TextObject
-        Dim sectiondetail As Section
-        Dim line As LineObject
+        'Dim txtdata As TextObject
+        'Dim sectiondetail As Section
+        'Dim line As LineObject
 
-        txtdata = cryRpt.ReportDefinition.ReportObjects("txtData")
-        sectiondetail = cryRpt.ReportDefinition.Sections("Section3")
-        'line = cryRpt.ReportDefinition.ReportObjects("Line1")
+        'txtdata = cryRpt.ReportDefinition.ReportObjects("txtData")
+        'sectiondetail = cryRpt.ReportDefinition.Sections("Section3")
+        'line = cryRpt.ReportDefinition.ReportObjects("Line6")
 
 
-        txtdata.Text = "Sample Report By Using Data Table!!"
+        'txtdata.Text = "Sample Report By Using Data Table!!"
 
 
 

@@ -50,7 +50,6 @@ D:\VB_NET\frm2\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
 D:\VB_NET\frm2\bin\Debug\ShockwaveFlashObjects.dll
 D:\VB_NET\frm2\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 D:\VB_NET\frm2\bin\Debug\stdole.dll
-D:\VB_NET\frm2\obj\Debug\frm2.vbprojResolveAssemblyReference.cache
 D:\VB_NET\frm2\obj\Debug\frm2.Form1.resources
 D:\VB_NET\frm2\obj\Debug\frm2.Resources.resources
 D:\VB_NET\frm2\obj\Debug\frm2.vbproj.GenerateResource.Cache
