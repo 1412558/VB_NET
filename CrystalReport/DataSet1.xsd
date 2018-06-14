@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="calenda" msprop:Generator_TableClassName="calendaDataTable" msprop:Generator_TableVarName="tablecalenda" msprop:Generator_RowChangedName="calendaRowChanged" msprop:Generator_TablePropName="calenda" msprop:Generator_RowDeletingName="calendaRowDeleting" msprop:Generator_RowChangingName="calendaRowChanging" msprop:Generator_RowEvHandlerName="calendaRowChangeEventHandler" msprop:Generator_RowDeletedName="calendaRowDeleted" msprop:Generator_RowClassName="calendaRow" msprop:Generator_UserTableName="calenda" msprop:Generator_RowEvArgName="calendaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="day" msprop:Generator_ColumnVarNameInTable="columnday" msprop:Generator_ColumnPropNameInRow="day" msprop:Generator_ColumnPropNameInTable="dayColumn" msprop:Generator_UserColumnName="day" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="holiday" msprop:Generator_ColumnVarNameInTable="columnholiday" msprop:Generator_ColumnPropNameInRow="holiday" msprop:Generator_ColumnPropNameInTable="holidayColumn" msprop:Generator_UserColumnName="holiday" type="xs:unsignedInt" minOccurs="0" />
+              <xs:element name="dayofweek" msprop:Generator_ColumnVarNameInTable="columndayofweek" msprop:Generator_ColumnPropNameInRow="dayofweek" msprop:Generator_ColumnPropNameInTable="dayofweekColumn" msprop:Generator_UserColumnName="dayofweek" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
