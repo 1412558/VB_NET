@@ -79,33 +79,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calendar Which is Populated With a Date Lookup Table.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Calendar Which is Populated With a Date Lookup Table.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Calendar Which Populates All Dates in a Range.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Calendar Which Populates All Dates in a Range.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CalendarMonthlyView.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CalendarMonthlyView.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CalendarYearlyView.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CalendarYearlyView.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Common_ReportDocument.vb">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="calenda.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -150,22 +123,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Calendar Which is Populated With a Date Lookup Table.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>Calendar Which is Populated With a Date Lookup Table.vb</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Calendar Which Populates All Dates in a Range.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>Calendar Which Populates All Dates in a Range.vb</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CalendarMonthlyView.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>CalendarMonthlyView.vb</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CalendarYearlyView.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>CalendarYearlyView.vb</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Include="calenda.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>calenda.vb</LastGenOutput>

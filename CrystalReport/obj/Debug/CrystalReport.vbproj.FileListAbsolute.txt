@@ -51,10 +51,10 @@ D:\VB_NET\CrystalReport\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory
 D:\VB_NET\CrystalReport\bin\Debug\ShockwaveFlashObjects.dll
 D:\VB_NET\CrystalReport\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 D:\VB_NET\CrystalReport\bin\Debug\stdole.dll
-D:\VB_NET\CrystalReport\obj\Debug\CrystalReport.vbprojResolveAssemblyReference.cache
 D:\VB_NET\CrystalReport\obj\Debug\frm2.Form1.resources
 D:\VB_NET\CrystalReport\obj\Debug\frm2.Resources.resources
 D:\VB_NET\CrystalReport\obj\Debug\CrystalReport.vbproj.GenerateResource.Cache
 D:\VB_NET\CrystalReport\obj\Debug\frm2.exe
 D:\VB_NET\CrystalReport\obj\Debug\frm2.xml
 D:\VB_NET\CrystalReport\obj\Debug\frm2.pdb
+D:\VB_NET\CrystalReport\obj\Debug\CrystalReport.vbprojResolveAssemblyReference.cache

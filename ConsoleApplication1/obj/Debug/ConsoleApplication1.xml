@@ -22,5 +22,25 @@ ConsoleApplication1
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="T:ConsoleApplication1.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ConsoleApplication1.DataSet1.calendaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ConsoleApplication1.DataSet1.calendaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ConsoleApplication1.DataSet1.calendaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
 </members>
 </doc>
