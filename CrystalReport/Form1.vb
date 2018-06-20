@@ -59,12 +59,21 @@ Public Class Form1
         Dim ds = New DataSet1
         Dim dt = ds.Tables("calenda")
         Dim today = Now
-        For i = 0 To 90
-            dt.Rows.Add(today.AddDays(i), 1, today.AddDays(i).DayOfWeek)
+        For i = 0 To 15
+            dt.Rows.Add(today.AddDays(i), 1, "Monday")
         Next
+
+        For i = 0 To 16
+            dt.Rows.Add(today.AddDays(i), 1, "Sunday")
+        Next
+
+        For i = 0 To 32
+            dt.Rows.Add(today.AddDays(i), 1, "Friday")
+        Next
+
         cryRpt.Database.Tables("calenda").SetDataSource(dt)
 
-        cryRpt.PrintOptions.PaperOrientation = PaperOrientation.Landscape
+        'cryRpt.PrintOptions.PaperOrientation = PaperOrientation.Landscape
         Call PreviewReport(cryRpt)
 
         'cryRpt.PrintToPrinter(1, False, 0, 0)

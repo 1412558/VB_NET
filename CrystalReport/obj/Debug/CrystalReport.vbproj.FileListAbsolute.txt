@@ -57,4 +57,3 @@ D:\VB_NET\CrystalReport\obj\Debug\CrystalReport.vbproj.GenerateResource.Cache
 D:\VB_NET\CrystalReport\obj\Debug\frm2.exe
 D:\VB_NET\CrystalReport\obj\Debug\frm2.xml
 D:\VB_NET\CrystalReport\obj\Debug\frm2.pdb
-D:\VB_NET\CrystalReport\obj\Debug\CrystalReport.vbprojResolveAssemblyReference.cache
