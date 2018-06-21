@@ -49,6 +49,9 @@ Public Class Form1
         frm.AutoSize = True
         frm.ShowDialog()
 
+
+        Dim rp = New calenda
+
     End Sub
 
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
@@ -59,15 +62,15 @@ Public Class Form1
         Dim ds = New DataSet1
         Dim dt = ds.Tables("calenda")
         Dim today = Now
-        For i = 0 To 15
-            dt.Rows.Add(today.AddDays(i), 1, "Monday")
-        Next
+        'For i = 0 To 15
+        '    dt.Rows.Add(today.AddDays(i), 1, "Monday")
+        'Next
 
-        For i = 0 To 16
-            dt.Rows.Add(today.AddDays(i), 1, "Sunday")
-        Next
+        'For i = 0 To 16
+        '    dt.Rows.Add(today.AddDays(i), 1, "Sunday")
+        'Next
 
-        For i = 0 To 32
+        For i = 0 To 29
             dt.Rows.Add(today.AddDays(i), 1, "Friday")
         Next
 
